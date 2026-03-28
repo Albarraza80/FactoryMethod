@@ -11,15 +11,15 @@ public class ProcesadorDeOrden{
 
         Scanner sc = new Scanner(System.in);
 
-//        System.out.print( """
-//            ******MENÚ RESTAURANTE*****
-//            1. Arroz con coco
-//            2. Cojinoa al ajillo
-//            3. Higado encebollado
-//
-//            Seleccione un plato: >""" + " ");
-//
-//        int seleccion = sc.nextInt();
+        System.out.print( """
+            ******MENÚ RESTAURANTE*****
+            1. Arroz con coco
+            2. Cojinoa al ajillo
+            3. Higado encebollado
+
+            Seleccione un plato: >""" + " ");
+
+        int seleccion = sc.nextInt();
 
         Orden ordenPedida = switch (seleccion) {
             case 1 -> PlatosOfrecidos.ARROZCOCO.crear();
@@ -31,6 +31,6 @@ public class ProcesadorDeOrden{
             }
         };
 
-      ordenPedida.fabricaDePlatos();
+      //ordenPedida.fabricaDePlatos();
     }
 }
