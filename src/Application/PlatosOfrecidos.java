@@ -9,6 +9,8 @@ import java.util.function.Supplier;
 
 
 public enum PlatosOfrecidos {
+
+    //Se hacen modificaciones
     ARROZCOCO(OrdenArrozConCoco::new),
     COJINOAAJILLO(OrdenCojinoaAlAjillo::new),
     HIGADOENCEBOLLADO(OrdenHigadoEncebollado::new);
